@@ -1,11 +1,16 @@
 import React from "react";
 import ParentComponent from './ParentComponent'
+import { AppProvider } from "./AppContext";
+
+import "./App.css"
 
 function App() {
   return (
-    <div className="App">
-      <ParentComponent />
-    </div>
+    <AppProvider>
+      <div className="App">
+        <ParentComponent />
+      </div>
+    </AppProvider>
   );
 }
 

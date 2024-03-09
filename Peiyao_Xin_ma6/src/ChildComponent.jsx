@@ -3,17 +3,17 @@ import AppContext from "./AppContext";
 import "./ChildComponent.css";
 
 const ChildComponent = () => {
-    const { hanldeCounter } = useContext(AppContext);
+    const { handleCounter } = useContext(AppContext);
     const [isOn, setIsOn] = useState(false);
 
     const handleClick = () => {
         setIsOn(!isOn);
-        hanldeCounter(!isOn)
+        handleCounter(!isOn)
     };
 
     return (
         <div
-        className={`cell ${isOn ? 'cell-on' : ''}`}
+        className={`box ${isOn ? 'box-on' : ''}`}
         onClick={handleClick}
         ></div>
     );

@@ -7,7 +7,7 @@ export const AppProvider = ({ children }) => {
 
     // update the number of boxes that are black
     const handleCounter = (isOn) => {
-        setCount(prev = isOn ? prev + 1 : prev - 1);
+        setCount(prev => isOn ? prev + 1 : prev - 1);
     };
 
     return (
