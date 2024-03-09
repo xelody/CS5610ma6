@@ -1,8 +1,5 @@
-# React + Vite
+# MA6
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Created a 2X2 grid, where each square on that grid can be turned “on” or “off”.  Additionally, each time user select a cell on this grid, a counter at the top will increment or decrement to show the current number of “on” cells.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Used Context  to handle all the data
